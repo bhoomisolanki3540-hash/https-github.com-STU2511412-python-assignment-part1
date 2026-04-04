@@ -1,20 +1,16 @@
-# Student Grade Tracker
+Student Grade Tracker
+A command-line Python application designed to manage, clean, and analyze student academic records using core programming concepts.
 
-This project is a Python-based command-line application that:
+Features
+Data Normalization: Cleans raw, inconsistently formatted strings into Title Case names and integer roll numbers.
 
-- Cleans raw student data
-- Analyzes marks and assigns grades
-- Allows dynamic subject entry
-- Generates class performance summary
-- Performs string manipulation tasks
+Input Validation: Verifies that student names contain only alphabetic characters, marking them with "✓" or "✗" symbols.
 
-## Concepts Used
-- Loops (for, while)
-- Conditionals
-- Lists & Dictionaries
-- String operations
-- Error handling (try-except)
+Marks Analysis: Calculates total and average marks, identifies highest/lowest scoring subjects, and assigns grades (A+, A, B, C, F).
 
-## How to Run
-Run the Python file:
-python part1_grade_tracker.py
+Interactive System: Features a while loop that allows users to manually enter new subjects and marks with built-in error handling for invalid inputs.
+
+String Utilities: Performs advanced essay manipulation, including case-insensitive word counting and sentence formatting.
+
+Files Included
+part1_grade_tracker.ipynb: The main Jupyter Notebook containing all logic and rendered outputs.
